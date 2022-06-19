@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6562255091181331559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6562255091181331556}
+  - component: {fileID: 7031845044381030993}
+  - component: {fileID: -3753337462153135435}
+  m_Layer: 0
+  m_Name: Network Runner PF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6562255091181331556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6562255091181331559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7031845044381030993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6562255091181331559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1199893898, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3753337462153135435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6562255091181331559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38f5fe975f3d584889a92f8943d4c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefabBlue: {fileID: 3411980515083127224, guid: e19b154a3e4a12e4ca339e446dc2a3ed, type: 3}
+  playerPrefabRed: {fileID: 8265062894496183571, guid: d9aa57dec7a78ba4883ac42887882885, type: 3}
+  playerPrefabGreen: {fileID: 7394764337781438440, guid: ed9fd0ac6e264e042a0f3aeda8ce18e6, type: 3}
+  spawnCount: 0
+  blueMaterial: {fileID: 2100000, guid: 824018a42084b43e1a0be2d28103300e, type: 2}
+  greenMaterial: {fileID: 2100000, guid: 65a1d802e4849411caaeb20562f776e5, type: 2}
+  redMaterial: {fileID: 2100000, guid: 1bddb8986ce1b4a96bdc48a061f52e29, type: 2}
